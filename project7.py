@@ -18,7 +18,6 @@ while 1:
     vibor = randint(0, len(random_list)-1)
 
     print('Переведите слово:', eng[random_list[vibor]])
-
     for i in range(0, len(random_list)):
         print(i+1,')', rus[random_list[i]])
     answer = int(input("Выберете верный номер:"))
